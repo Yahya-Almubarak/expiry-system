@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fragment_background_color">#94b0dd</color>
+    <color name="home_login_btn_color">#0c377c</color>
+    <color name="recyclerView_even_color">#cad7ed</color>
+    <color name="recyclerView_odd_color">#afc1e0</color>
+    <color name="recyclerView_product_alarm_color">#e87676</color>
+</resources>

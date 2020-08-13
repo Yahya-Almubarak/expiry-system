@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_products"
+        android:icon="@drawable/icons8_basket_24"
+        android:title="@string/nav_products_button_title" />
+
+    <item
+        android:id="@+id/navigation_edit_product"
+        android:icon="@drawable/icons8_wheat_24"
+        android:title="@string/nav_edit_product_button_title" />
+    <item
+        android:id="@+id/navigation_users"
+        android:icon="@drawable/ic_users_nav_menu"
+        android:title="@string/nav_users_button_title" />
+    <item
+        android:id="@+id/navigation_add_user"
+        android:icon="@drawable/ic_add_user_24dp"
+        android:title="@string/nav_add_user_button_title" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_history_nav_menu"
+        android:title="@string/nav_history_button_title" />
+
+</menu>

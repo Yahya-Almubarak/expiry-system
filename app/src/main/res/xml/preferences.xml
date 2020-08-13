@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="notifications"
+        app:title="@string/settings_notification_group_title">
+        <SeekBarPreference
+            app:defaultValue="6"
+            app:key="notification_start_hour"
+            app:title="@string/settings_notification_starthour_seekbar_title"
+            app:summary="@string/settings_notification_starthour_seekbar_summary" />
+        <SeekBarPreference
+            app:defaultValue="20"
+            app:key="notification_end_hour"
+            app:title="@string/settings_notification_endhour_seekbar_title"
+            app:summary="@string/settings_notification_endhour_seekbar_summary" />
+        <SeekBarPreference
+            app:defaultValue="1"
+            app:key="notification_repeatition_period"
+            app:title="@string/settings_notification_repetition_period_title"
+            app:summary="@string/settings_notification_repetition_period_summary"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        app:key="ring_tone"
+        app:title="@string/settings_ringtone_group_title">
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="ring_tone_on"
+            app:title="@string/settings_ringtone_ringer_on_off_switch_title"
+            app:summary="@string/settings_ringtone_ringer_on_off_switch_summary"/>
+        <SeekBarPreference
+            app:defaultValue="30"
+            app:key="ring_tone_duration"
+            app:title="@string/settings_ringtone_ringtone_duration_seekbar_title"
+            app:summary="@string/settings_ringtone_ringtone_duration_seekbar_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="user_authentication"
+        app:title="@string/settings_user_authintication">
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="user_authentication_on"
+            app:title="@string/settings_user_authentication_on_title"
+            app:summary="@string/settings_user_authentication_summary"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

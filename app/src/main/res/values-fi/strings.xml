@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY storename "Tokmanni">
+    ]>
+
+
+<resources>
+    <string name="app_name">&storename; Päivämäärä</string>
+
+    <string name="nav_home_button_title">Koti</string>
+    <string name="nav_products_button_title">Tuotteet</string>
+    <string name="nav_edit_product_button_title">Lisää</string>
+    <string name="nav_users_button_title">Käyttäyät</string>
+    <string name="nav_add_user_button_title">Uusi käyttäyä</string>
+    <string name="nav_edit_user_button_title">Edit User</string>
+    <string name="nav_history_button_title">Historia</string>
+
+    <string name="home_username_label">Käyttäyän nimi</string>
+    <string name="home_password_label">Salasana</string>
+    <string name="home_login_button_title">Kirjaudu</string>
+    <string name="home_logout_button_title">Kirjaudo ulos</string>
+
+    <string name="product_add_product_name_label">Tuotteen nimi</string>
+    <string name="product_add_product_code_label">Tuotteen Koodi</string>
+    <string name="product_add_product_expire_label">Päivämäärä</string>
+    <string name="productedit_creator_name_label">Luotajan nim</string>
+    <string name="productedit_state_label">Tilanne</string>
+    <string name="product_add_description_label">Kuvaus</string>
+    <string name="product_add_save_button_title">Talenna</string>
+    <string name="product_add_clear_button_title">Tyhjä</string>
+    <string name="productedit_delete_button_title">Poista</string>
+    <string name="productedit_name_empty_error">Tuotteen nimi on pakollinen</string>
+    <string name="productedit_date_old_error">Päivämäärä on vanha</string>
+    <string name="productedit_date_null_error">Päivämäärä on pakollinen</string>
+    <string name="productedit_saved_toast">tallennettu </string>
+    <string name="product_add_date_text_hint">pp-kk-vvvv</string>
+
+    <string name="products_deleted_toast">Poistettu</string>
+
+    <string name="products_delete_alert_title">Oletko varma</string>
+    <string name="products_delete_alert_positive">Kyllä</string>
+    <string name="products_delete_alert_negative">En</string>
+
+    <string name="users_deleted_toast">Poistettu</string>
+
+    <string name="users_delete_alert_title">Oletko varma</string>
+    <string name="users_delete_alert_positive">Kyllä</string>
+    <string name="users_delete_alert_negative">En</string>
+
+    <string name="add_user_first_name_label">Etunimi</string>
+    <string name="add_user_last_name_label">Sukunimi</string>
+    <string name="add_user_role_label">Rooli</string>
+    <string name="add_user_note_label">huomautus</string>
+    <string name="add_user_save_button_title">Talenna</string>
+    <string name="add_user_clear_button_title">Tyhjää</string>
+    <string name="add_user_delete_button_title">Poista</string>
+    <string name="add_user_first_name_empty_error">Etunimi on pakollinen</string>
+    <string name="add_user_last_name_empty_error">Sukunimi on pakollinen</string>
+    <string name="add_user_role_empty_error">Rooli on pakko valittaa</string>
+    <string name="add_user_saved_toast">Talennettu</string>
+
+    <string name="alert_title">&storename; päivämäärä sovellus</string>
+    <string name="alert_content">Sinun pitää tarkistaa vanhat tuotteet</string>
+
+    <string name="action_settings">Asetukset</string>
+    <string name="action_signout">Kirjaudo ulos</string>
+    <string name="prompt_username">KÄYTTÄYÄN TUNNUS</string>
+    <string name="prompt_password">SALASANA</string>
+    <string name="action_sign_in_short">Kirjaudu</string>
+    <string name="action_sign_in">Kirjaudu</string>
+
+    <string name="login_user_name_error">Syötää käyttäjän tunnus</string>
+    <string name="login_title">Kirjaudu &storename; päivämäärä sovelukseen</string>
+    <string name="login_username_hint">Käyttäjän tunnus</string>
+    <string name="login_password_hint">Salasana</string>
+    <string name="login_login_btn_label">Kirjaudu sisään</string>
+    <string name="login_user_name_error_txt">Käyttäjän tunnus on pakkollinen</string>
+    <string name="login_user_not_exist_error">Käyttäjän tunnus on virhellinen</string>
+    <string name="login_password_error_txt">Salasana on pakkollinen</string>
+    <string name="add_user_edit_my_profile_checkbox">Muoka profiilini</string>
+    <string name="add_user_username_label">Käyttäjän tunnus</string>
+    <string name="add_user_chang_password_checkbox">Muoka salasana</string>
+    <string name="add_user_cancel_button_title">Peruta</string>
+    <string name="history_title">Historia</string>
+    <string name="products_title">Tuotteet</string>
+    <string name="users_title">Käyttäjät</string>
+    <string name="product_add_extra_alarm_label">Ennako Lisä Hälytys</string>
+    <string name="product_add_product_extra_alarm_spinner_prompt">lisähalytyksen pitä olla ennen kuin päivämäärä</string>
+    <string name="activity_settings_title">Asetukset</string>
+
+    <string-array name="extra_alarm">
+        <item>Nolla</item>
+        <item>1 Päivä</item>
+        <item>3 Kolme Päivää</item>
+        <item>10 Kymmenen Päivää</item>
+        <item>15 Viisitoista Päivää</item>
+        <item>20 Kaksikymmentä Päivää</item>
+        <item>30 Kuukausi</item>
+        <item>45 Puolitoist Kuukauta</item>
+        <item>60 Kaksi Kuukauta</item>
+        <item>90 Kolme Kuukauta</item>
+    </string-array>
+
+    <string-array name="roles">
+        <item>Ylipitäjä</item>
+        <item>Käyttäjä</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="add_user_title">Lisää Käyttäjä</string>
+    <string name="product_add_product_title">Lisää uusi tuoteِ</string>
+    <string name="notification_channal_name">Tokmannin päivämäärä soveluksen ilmoitus</string>
+    <string name="notification_channal_description">Poista vanhat tuotteet hylystä</string>
+    <string name="provalueduct_recycleview_extral_alarm_large_value_error">Lisähälytys ei saa olla lian suuri</string>
+    <string name="product_recyclerview_extra_alarm_in_the_past_error">Lisähälytys ei saa olla enemman kuin </string>
+    <string name="product_recyclerview_extra_alarm_in_the_past_error_days"> päivää</string>
+
+    <string name="settings_notification_group_title">Ilmoitukset</string>
+    <string name="settings_notification_starthour_seekbar_title">Ilmoituksien aloittus tunti</string>
+    <string name="settings_notification_starthour_seekbar_summary">Mistä asti lähetetään ilmotukset</string>
+    <string name="settings_notification_endhour_seekbar_title">Ilmoituksien loppu tunti</string>
+    <string name="settings_notification_endhour_seekbar_summary">Mihin asti saadan lähettää ilmoitukset</string>
+    <string name="settings_notification_repetition_period_title">Ilmoituksen toisto väli aika</string>
+    <string name="settings_notification_repetition_period_summary">tunnit ilmoituksien välissä</string>
+    <string name="settings_ringtone_group_title">Hälytys soitin</string>
+    <string name="settings_ringtone_ringer_on_off_switch_title">Soitimen tila</string>
+    <string name="settings_ringtone_ringer_on_off_switch_summary">laita soitin päällä</string>
+    <string name="settings_ringtone_ringtone_duration_seekbar_title">Soitin jatko aika</string>
+    <string name="settings_ringtone_ringtone_duration_seekbar_summary">Montako sekuntia soitin soi</string>
+    <string name="settings_user_authintication">Käyttäjän tunnistetiedot</string>
+    <string name="settings_user_authentication_on_title">Käyttäjän tunnistiedot pyydetään</string>
+    <string name="settings_user_authentication_summary">Sovellus voi käyttää ilman käyytäjan nimia tai salasanaa.</string>
+    <string name="settings_default_user_name">Oletus Käyttäjä</string>
+    <string name="settings_default_user_first_name">Oletus</string>
+    <string name="settings_default_user_last_name">Käyttäjä</string>
+    <string name="products_table_header_product_name">Tuotteen nim</string>
+    <string name="products_table_header_expire_date">Tuotteen Päivämäärä</string>
+    <string name="products_table_header_code">Koodi</string>
+    <string name="products_table_header_extra_alarm">Lisähälytys</string>
+    <string name="users_table_header_first_name">Etunimi</string>
+    <string name="users_table_header_last_name">Sukunimi</string>
+    <string name="users_table_header_role">Rooli</string>
+    <string name="users_table_header_creation_date">Käyttäjän lisämisen aika</string>
+
+
+
+</resources>
